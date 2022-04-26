@@ -8,26 +8,36 @@
 </head>
 
 <style>
+
+    body{
+        text-align: center; padding: 100px 0;
+
+    }
     .vaara {
   border: none;
   color: white;
   padding: 14px 28px;
   font-size: 16px;
   cursor: pointer;
+  
 }
-.vaara {background-color: #f44336;} 
+.vaara {background-color: #f44336; } 
+
 .vaara:hover {background: #da190b;}
 h1 {
-    color :red
+    color :red;
+
+    
 }
+
 
 </style>
 <body>
     <h1>älä missään nimessä paina nappia</H1>
 
-    <p id="vaihto"><b>sillä tämä teksti...</b></p>
+    <p id="vaihto"><b>Sillä jos painat niin...</b></p>
     
-    <button type="button" class="vaara"  onclick='document.getElementById("vaihto").innerHTML = "vaihtuu!"'>ÄLÄ PAINA!</button>
+    <button type="button" class="vaara"  onclick='document.getElementById("vaihto").innerHTML = "painoit sit kuitenkin!"'>ÄLÄ PAINA!</button>
     
 </body>
 </html> 
